@@ -1,5 +1,7 @@
 function addToFront(arr, element) {
-  // your code here
+  let newA = arr;
+  newA.unshift(element);
+  return newA;
 }
 
 var output = addToFront([1, 2], 3);
